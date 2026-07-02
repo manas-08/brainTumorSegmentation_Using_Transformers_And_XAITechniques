@@ -158,41 +158,6 @@ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-# 🚀 Training
-
-Launch training using
-
-```bash
-python src/train.py
-```
-
-Training parameters including learning rate, optimizer, scheduler, batch size, image resolution, augmentations, and loss functions can be configured through the project configuration files.
-
----
-
-# 🔍 Evaluation
-
-Run evaluation using
-
-```bash
-python src/test.py
-```
-
-The evaluation pipeline computes standard medical image segmentation metrics and generates prediction masks for qualitative analysis.
-
----
-
-# 💻 Inference
-
-Generate segmentation masks for unseen MRI scans
-
-```bash
-python src/inference.py --weights checkpoints/best_model.pth
-```
-
 ---
 
 # 📊 Results
