@@ -252,12 +252,9 @@ If this project contributes to your research, please consider citing it.
 
 ```bibtex
 @misc{BrainTumorMSAF2026,
-  title={Brain Tumor Segmentation using SwinUNet with Multi-Scale Attention Fusion},
+  title={SwinUNet with Multi-Scale Attention Fusion and Grad-CAM++ for Interpretable Modality-Aware Brain Tumor Segmentation from MRI},
   author={
-    Manas Shende and
-    Aarsh Hadap and
-    Aryan Sharma and
-    Aniruddha Kide
+   Amit Pimpalkar*, Aniruddha Kide, Manas Shende, Aarsh Hadap, Aryan Sharma, Nilesh Shelke*, V Sravan Kumar, Kalpana Malpe,
   },
   year={2026},
   publisher={GitHub},
